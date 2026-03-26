@@ -37,7 +37,7 @@ It is wrapper of great C# logging library Serilog - https://serilog.net/.
 For documentation check PoShLog wiki - https://github.com/PoShLog/PoShLog/wiki'
 
 # Minimum version of the PowerShell engine required by this module
-PowerShellVersion = '5.1'
+PowerShellVersion = '7.0'
 
 # Name of the PowerShell host required by this module
 # PowerShellHostName = ''
@@ -78,8 +78,8 @@ FunctionsToExport = 'Write-DebugLog', 'Write-ErrorLog', 'Write-FatalLog', 'Write
                'Close-Logger', 'New-LevelSwitch', 'New-Logger', 'Set-LevelSwitch', 
                'Set-Logger', 'Set-MinimumLevel', 'Start-Logger', 
                'Add-EnrichFromLogContext', 'Add-EnrichWithErrorRecord', 
-               'Add-EnrichWithProperty', 'Get-JsonFormatter', 'Convert-LogFunctions', 
-               'Add-SinkConsole', 'Add-SinkFile', 'Add-SinkPowerShell'
+               'Add-EnrichWithProperty', 'Get-JsonFormatter', 'Get-CompactFormatter',
+			   'Convert-LogFunctions', 'Add-SinkConsole', 'Add-SinkFile', 'Add-SinkPowerShell'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
